@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_01/pages/dashboardPage.dart';
 import 'package:practice_01/widget/Container_Sized.dart';
 import 'package:practice_01/widget/List_Grid.dart';
 import 'package:practice_01/widget/alert_dialog_example.dart';
@@ -28,8 +29,10 @@ class MyApp extends StatelessWidget {
       // ListGrid(),
       // Snackbarwidget()
       // DismissibleWidget(),
-      DrawerExample(),
+      // DrawerExample(),
       // AlertDialogExample(),
+
+      DashboardPage(),
     );
   }
 }

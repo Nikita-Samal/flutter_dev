@@ -4,7 +4,7 @@
 // Control statements: break, continue
 
 void main(){
-  // 1. for loop - When you know the number of iterations
+  // 1. for loop - When you know the number of iterationsd
   // basic for loop
   // syntax: for(initialization; condition; increment/decrement)
   for (int i = 0; i < 5; i++) {

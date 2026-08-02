@@ -90,7 +90,7 @@ final a = DateTime.now(); //runtime const
 print(a);
 
 
-// Optional Variable
+/* Optional Variable
 
 //String/bool/int and null
 
@@ -99,5 +99,9 @@ print(a);
  // ' ' has a value of String , it doesnot mean aValue has no value.
  //but when u use null it has no value
 
+ --------------------------
+  local variable = variable declared inside the function.
+  global variable = variable declared outside the function.
+*/
 
 }

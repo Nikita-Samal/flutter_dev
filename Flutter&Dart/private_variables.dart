@@ -27,15 +27,8 @@ class Cookie{
   int calculateSize(){
     return _height * _width; 
   }
-
-
-
-
+  
   void baking(){
     print('Baking has Started.');
   }
-
- 
-
-
 }

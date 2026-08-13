@@ -20,7 +20,7 @@ class ChatPage extends StatelessWidget {
               leading: CircleAvatar(
                 child: Icon(Icons.person),
               ),
-              title: Text("Dr. Michael"),
+              title: Text("Dr. Aditya"),
               subtitle: Text("Your report looks good."),
               trailing: Text("2 min"),
             ),

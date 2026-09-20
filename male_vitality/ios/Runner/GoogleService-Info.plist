@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1040163993651-ndp6n801v91f59dhjs5kntq7e94fltse.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1040163993651-ndp6n801v91f59dhjs5kntq7e94fltse</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDtwYt_K80Xzmn4qjt5t2Q2E4ioUfU5fa4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1040163993651</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.maleVitality</string>
+	<key>PROJECT_ID</key>
+	<string>auth01-e323b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>auth01-e323b.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1040163993651:ios:235b47d95a20fdebb8cb46</string>
+</dict>
+</plist>

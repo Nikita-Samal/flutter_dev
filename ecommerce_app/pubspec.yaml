@@ -1,0 +1,48 @@
+name: nikita
+description: "A professional Flutter e-commerce application with Firebase backend."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  firebase_storage: ^13.6.0
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^3.0.0
+  bloc: ^9.2.1
+
+  # Navigation
+  go_router: ^18.0.1
+
+  # Image Handling
+  cached_network_image: ^4.0.0
+  image_picker: ^1.2.3
+
+  # Utilities
+  uuid: ^4.6.0
+  intl: ^0.20.3
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

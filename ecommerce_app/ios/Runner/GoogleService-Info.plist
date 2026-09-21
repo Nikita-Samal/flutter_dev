@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCG6Z0Ywz7ZWr2bD8_ZhXE_zz7Uw7C3DLQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>411146820224</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nikita.nikita</string>
+	<key>PROJECT_ID</key>
+	<string>e-commerce-48eb6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>e-commerce-48eb6.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:411146820224:ios:6871d1af85775988732465</string>
+</dict>
+</plist>

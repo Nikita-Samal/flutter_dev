@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411146820224",
+    "project_id": "e-commerce-48eb6",
+    "storage_bucket": "e-commerce-48eb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411146820224:android:2a0d6be1d1248d29732465",
+        "android_client_info": {
+          "package_name": "com.nikita.nikita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz7XaI5WFmDqrFIZvxEi3EE2gILyb55ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-/*
+/* ------------Private Variables in Dart------------
   - Private variables are those that can only be accessed within the class they are defined in. 
   - In Dart, private variables are denoted by a leading underscore (_). 
   - This means that if you define a variable with an underscore, it cannot be accessed from outside the class.
@@ -7,7 +7,7 @@
 */
 
 void main(){
-  final cookie = Cookie(shape: 'circle', size: 15.2);
+  // final cookie = Cookie(shape: 'circle', size: 15.2);
   // print(cookie._height); // Accessing private variable within the class is allowed
   // print(cookie._height); // This will cause an error if uncommented, as _height is private and cannot be accessed from outside the class.
 }

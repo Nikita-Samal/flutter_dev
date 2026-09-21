@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 5e7ec1e24d7131d407fb0fef5fafdafd403ca667 Nikita Samal <niks@Nikitas-MacBook-Air.local> 1788541900 +0530	commit (initial): grocery APP
+5e7ec1e24d7131d407fb0fef5fafdafd403ca667 0000000000000000000000000000000000000000 Nikita Samal <niks@Nikitas-MacBook-Air.local> 1788541900 +0530	Branch: renamed refs/heads/main to refs/heads/grocery-app
+0000000000000000000000000000000000000000 5e7ec1e24d7131d407fb0fef5fafdafd403ca667 Nikita Samal <niks@Nikitas-MacBook-Air.local> 1788541900 +0530	Branch: renamed refs/heads/main to refs/heads/grocery-app
+5e7ec1e24d7131d407fb0fef5fafdafd403ca667 ba3f25733d65435656e74a13eb2dd4e9bdfcd1de Nikita Samal <niks@Nikitas-MacBook-Air.local> 1788756762 +0530	commit: grocery APP
+ba3f25733d65435656e74a13eb2dd4e9bdfcd1de b22c54ca00f961cff8760a6047d2182fea76d899 Nikita Samal <niks@Nikitas-MacBook-Air.local> 1788756828 +0530	pull --rebase origin grocery-app (start): checkout b22c54ca00f961cff8760a6047d2182fea76d899
+b22c54ca00f961cff8760a6047d2182fea76d899 b02e87937353b629b452da52a94f00ff60346eac Nikita Samal <niks@Nikitas-MacBook-Air.local> 1788756828 +0530	pull --rebase origin grocery-app (pick): grocery APP
+b02e87937353b629b452da52a94f00ff60346eac b02e87937353b629b452da52a94f00ff60346eac Nikita Samal <niks@Nikitas-MacBook-Air.local> 1788756828 +0530	pull --rebase origin grocery-app (finish): returning to refs/heads/grocery-app

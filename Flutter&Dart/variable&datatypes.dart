@@ -1,5 +1,13 @@
 /*
 ------------Variables---------------
+-Variables are used to store data in memory.
+-Bacically variable is a container that holds a value.
+-In dart we can declare a variable using 4 ways.
+-those are var, final, const, and data type.
+- Variable name should be meaningful and should not start with a number or special character.
+-It is case sensitive.
+-It can be reassigned a value if it is declared using var or data type. but not final and const.
+
 syntax
 --------
 <datatype> <variable name> = value;
@@ -12,13 +20,14 @@ float b = 5.6;
 */
 
 /*
-Data Types
+Data Type
+-----------
 int = whole number ---- 1,2,4,-7.....
 float = fraction number  ---- 1.3, 4.5,.....
-double
+double- fraction number with more precision ---- 1.3456789, 4.5678901,.....
 String---- texts --- "niki", "Rivan", "india"
-char -- a, b, t,.....
-long
+char -- characters ---- 'a', 'b', 't',.....
+long -- large integer values --
 bool -- true & false
 
 */

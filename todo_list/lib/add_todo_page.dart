@@ -15,8 +15,7 @@ class _AddTodoPageState extends State<AddTodoPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('"ADD TODO'),
-
+        title: Text('ADD TODO'),
       ),
 
       body: SingleChildScrollView(
@@ -26,7 +25,6 @@ class _AddTodoPageState extends State<AddTodoPage> {
               controller: todoTitleController,
               decoration: InputDecoration(
                 hintText: 'Title'
-
               ),
             ),
             SizedBox(height: 10,),

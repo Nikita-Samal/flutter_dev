@@ -1,0 +1,68 @@
+name: Flutter CI/CD
+
+# ─── Triggers ────────────────────────────────────────────────────────────────
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# ─── Jobs ────────────────────────────────────────────────────────────────────
+jobs:
+  flutter_ci:
+    name: Analyze · Test · Build APK
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the full repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Java 17 is required by the Android build tools
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      # 3. Install the latest stable Flutter SDK (cached between runs)
+      - name: Set up Flutter (stable)
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      # 4. Print Flutter & Dart versions for traceability
+      - name: Flutter version info
+        run: flutter --version
+
+      # 5. Download all pub packages
+      - name: flutter pub get
+        working-directory: ecommerce_app
+        run: flutter pub get
+
+      # 6. Run the static analyser — fails the pipeline on any error or warning
+      - name: flutter analyze
+        working-directory: ecommerce_app
+        run: flutter analyze
+
+      # 7. Run the test suite
+      - name: flutter test
+        working-directory: ecommerce_app
+        run: flutter test --reporter expanded
+
+      # 8. Compile a release APK
+      #    (Uses the debug signing key automatically if no release keystore
+      #     is configured — safe for CI; see README for production signing)
+      - name: Build release APK
+        working-directory: ecommerce_app
+        run: flutter build apk --release
+
+      # 9. Upload the APK so it can be downloaded from the Actions run page
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nikita-release-apk
+          path: ecommerce_app/build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 30
+          if-no-files-found: error
